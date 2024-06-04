@@ -24,7 +24,6 @@ function getShippingCost(country) {
   }
 }
 
-
 getShippingCost("Australia"); // "Shipping to Australia will cost 170 credits"
 getShippingCost("Germany"); // "Sorry, there is no delivery to your country"
 getShippingCost("China"); // "Shipping to China will cost 100 credits"
